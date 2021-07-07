@@ -4,13 +4,8 @@ import AppLoading from 'expo-app-loading';
 import { useFonts } from 'expo-font';
 
 import { StatusBar } from 'react-native';
-import { theme } from './src/global/styles/theme';
 
 import { Routes } from './src/routes';
-import { Home } from './src/screens/Home';
-import { Challenge } from './src/screens/Challenge';
-import { Feedback } from './src/screens/Feedback';
-import { Completed } from './src/screens/Completed';
 
 export default function App() {
   const [fontsLoaded] = useFonts({
