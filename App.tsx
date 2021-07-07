@@ -30,27 +30,6 @@ export default function App() {
         translucent
       />
       <Routes />
-      {/* <StatusBar
-        barStyle="light-content"
-        backgroundColor="transparent"
-        translucent
-      />
-      <Home /> */}
-      {/* <StatusBar
-        barStyle="dark-content"
-        backgroundColor={theme.colors.background}
-      />
-      <Challenge /> */}
-      {/* <StatusBar
-        barStyle="dark-content"
-        backgroundColor={theme.colors.white}
-      />
-      <Feedback /> */}
-      {/* <StatusBar
-        barStyle="dark-content"
-        backgroundColor={theme.colors.white}
-      />
-      <Completed /> */}
     </>
   );
 }
