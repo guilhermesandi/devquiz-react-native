@@ -6,77 +6,77 @@ import blocksImg from '../assets/blocks.png';
 export const challenges = [
   {
     id: '1',
-    title: 'Gerenciamento de Estado',
+    title: 'React Básico',
     icon: dataImg,
     questionAnswered: 2,
-    level: 'Hardcore',
+    level: 'Easy',
     questions: [
       {
-        title: "O que o Flutter faz em sua totalidade?",
+        title: "React é usado principalmente para construir ___.",
         answers: [
           {
             id: 1,
-            title: "Kit de desenvolvimento de interface de usuário"
+            title: "Base de dados"
           },
           {
             id: 2,
-            title: "Possibilita a criação de aplicativos compilados nativamente",
-            isRight: true
+            title: "Conectividade"
           },
           {
             id: 3,
-            title: "Acho que é uma marca de café do Himalaia"
+            title: "Interface de usuário",
+            isRight: true
           },
           {
             id: 4,
-            title: "Possibilita a criação de desktops que são muito incríveis"
+            title: "Plataforma de Design"
           }
         ]
       },
       {
-        title: "Está curtindo o React?",
+        title: "O React é mantido por qual empresa?",
         answers: [
           {
             id: 1,
-            title: "Estou curtindo"
+            title: "Oracle"
           },
           {
             id: 2,
-            title: "Amando React"
+            title: "Microsoft"
           },
           {
             id: 3,
-            title: "Muito top"
+            title: "Google"
           },
           {
             id: 4,
-            title: "Show de bola",
+            title: "Facebook",
             isRight: true
           }
         ]
       },
       {
-        title: "Está curtindo o React?",
+        title: "Um desenvolvedor deve conhecer qual linguagem de programação para trabalhar com React e React Native.",
         answers: [
           {
             id: 1,
-            title: "Estou curtindo"
+            title: "C#"
           },
           {
             id: 2,
-            title: "Amando React"
+            title: "Java"
           },
           {
             id: 3,
-            title: "Muito top"
+            title: "JavaScript",
+            isRight: true
           },
           {
             id: 4,
-            title: "Show de bola",
-            isRight: true
+            title: "Cobol"
           }
         ]
-      }
+      },
     ],
   },
   {
